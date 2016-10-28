@@ -6,12 +6,13 @@
     
   },
   "dependencies": {
+    "express": "3.x",
     "react-scripts": "0.7.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node web.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
