@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -21,4 +26,77 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.calculator-box {
+  height: 800px;
+  width: 800px;
+  background: gray;
+  border: 5px solid black;
+  margin: auto;
+}
+
+.keypad-div {
+  border: 5px solid black;
+  box-shadow: 5px 5px 5px black;
+  width: 500px;
+  height: 500px;
+  float: left;
+  margin-top: 147px;
+  margin-left: 25px;
+  padding: 10px;
+  padding-top: 30px;
+  background: lightgray;
+}
+
+.num-div {
+  width: 150px;
+  height: 98px;
+  display: inline-block;
+}
+
+.num-div button {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5em;
+}
+
+.status-div input {
+  padding: 15px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  border: 5px solid black;
+  box-shadow: 0 0 10px black;
+  position: relative;
+  right: 125px;
+  top: 70px;
+}
+
+.operation-div {
+  border: 5px solid black;
+  box-shadow: 5px 5px 5px black;
+  width: 200px;
+  float: right;
+  background: lightgray;
+  margin-right: 25px;
+}
+
+.operation-div div {
+  margin: 15px;
+}
+
+button {
+  border: 1px solid black;
+  background: whitesmoke;
+  border-radius: 4px;
+}
+
+button:hover {
+  box-shadow: 2px 2px 2px black inset;
+  font-weight: bold;
+}
+
+.App {
+  margin-top: 50px;
 }
